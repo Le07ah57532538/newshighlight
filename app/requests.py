@@ -10,11 +10,11 @@ base_url_source=None
 
 base_url_articles=None
 
-def configure_request(app):
-    global api_key,base_url_source,base_url_articles
-    api_key = app.config['NEWS_API_KEY']
-    base_url_source=app.config['BASE_URL_SOURCES']
-    base_url_articles=app.config['BASE_URL_ARTICLES']
+# def configure_request(app):
+#     global api_key,base_url_source,base_url_articles
+#     api_key = app.config['NEWS_API_KEY']
+#     base_url_source=app.config['BASE_URL_SOURCES']
+#     base_url_articles=app.config['BASE_URL_ARTICLES']
 
 def get_source():
     '''
