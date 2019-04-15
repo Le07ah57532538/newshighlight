@@ -1,0 +1,10 @@
+
+{%for article in articles%}
+
+    <h1><a href="{{article.url}}">{{article.title}}</a></h1>
+<h3>author: {{article.author }} source: {{article.source.name}}</h3>
+<p>{{article.description}}</p>
+<p>time of publishing {{ article.publishedAt}}</p>
+
+
+{%endfor%}
